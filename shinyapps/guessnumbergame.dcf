@@ -1,0 +1,10 @@
+name: guessnumbergame
+account: oodeng
+server: shinyapps.io
+appId: 85761
+bundleId: 382051
+url: https://oodeng.shinyapps.io/guessnumbergame/
+when: 1456598091.45403
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Developing.Data.Products.Rmd|Developing.Data.Products.html|README.md

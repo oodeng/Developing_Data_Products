@@ -1,0 +1,42 @@
+---
+title: "Shiny Application and Reproducible: GUESSING NUMBER GAME"
+author: "SAIFUDDIN BIN MOHD"
+date: "February 28, 2016"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+The objective of the game
+========================================================
+The objective of this game is to guess an integer between 1 and 500 (inclusive) and try to match it with the computer's selection
+
+Why would use this?
+========================================================
+
+* Children who bored with numbers
+* Fun learning with mathematics
+* Teaching logical number comparisons
+* Guess the number base on the result with the instructions given
+
+The ui.R file
+========================================================
+* It uses the pageWithSidebar layout.
+* Then, to ensure all the information is not crammed onto one page, the searching input by using sidebarPanel has been used to effectively organize the page.
+* Text Input, action button and  interactive verbatimTextOutput have been used to assist user to play the game.
+* You can access the source code by click https://github.com/oodeng/Developing_Data_Products/
+
+The server.R file
+========================================================
+
+* Makes use of the floor function to generate a random number to be compared.
+* Using comparison if...else to guide user guessing the right number.
+* This application also can be set to a easier level by changing the variable of maxval. As for current application, the maxval is set to 500.
+* You can access the source code by click https://github.com/oodeng/Developing_Data_Products/
+
+
+Aplication on Shinyapps
+========================================================
+You can test the apllication GUESSING NUMBER GAME by click https://oodeng.shinyapps.io/guessnumbergame/
